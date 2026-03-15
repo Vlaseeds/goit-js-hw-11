@@ -7,14 +7,14 @@
 
 /* FORM */
 
-.search-form {
+.form {
   display: flex;
   justify-content: center;
   gap: 12px;
   margin-bottom: 32px;
 }
 
-.search-form input {
+.form input {
   width: 100%;
   max-width: 360px;
   padding: 12px 20px;
@@ -25,13 +25,13 @@
   box-sizing: border-box;
 }
 
-.search-form input:focus {
+.form input:focus {
   outline: none;
   border-color: #4e75ff;
   box-shadow: 0 0 0 3px rgba(78, 117, 255, 0.2);
 }
 
-.search-form button {
+.form button {
   padding: 12px 28px;
   background-color: #4e75ff;
   color: white;
@@ -43,12 +43,12 @@
   transition: background-color 0.3s, transform 0.2s;
 }
 
-.search-form button:hover {
+.form button:hover {
   background-color: #3a5ccc;
   transform: translateY(-2px);
 }
 
-.search-form button:active {
+.form button:active {
   transform: translateY(0);
 }
 

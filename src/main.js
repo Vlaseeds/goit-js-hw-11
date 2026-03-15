@@ -3,7 +3,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 import { getImagesByQuery } from './js/pixabay-api';
 import { createGallery, clearGallery, showLoader, hideLoader } from './js/render-functions';
 
-const form = document.querySelector('.search-form');
+const form = document.querySelector('.form');
 const searchInput = form.querySelector('input[name="search-text"]');
 
 form.addEventListener('submit', (event) => {
